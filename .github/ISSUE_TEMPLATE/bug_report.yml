@@ -1,0 +1,152 @@
+name: 🐛 Bug Report
+description: Report a bug or issue with VSCode+ configurations or documentation
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the information below to help us resolve it quickly.
+
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Repository
+      description: Which VSCode+ repository is this bug related to?
+      options:
+        - .github (Organization meta)
+        - vsc-python
+        - vsc-javascript
+        - vsc-typescript
+        - vsc-java
+        - vsc-go
+        - vsc-rust
+        - vsc-csharp
+        - vsc-cpp
+        - vsc-php
+        - Other (specify in description)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bug-type
+    attributes:
+      label: Bug Type
+      description: What type of issue are you experiencing?
+      options:
+        - Configuration issue (settings.json, etc.)
+        - Extension not working
+        - Dev container issue
+        - Documentation error
+        - Profile import issue
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Tell us what went wrong...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: Describe the expected behavior...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: Describe what actually happened...
+    validations:
+      required: true
+
+  - type: input
+    id: vscode-version
+    attributes:
+      label: VS Code Version
+      description: What version of VS Code are you using? (Help > About)
+      placeholder: "e.g., 1.85.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: What operating system are you using?
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Linux (Ubuntu/Debian)
+        - Linux (Fedora/RHEL)
+        - Linux (Arch)
+        - Other Linux
+        - WSL (Windows Subsystem for Linux)
+    validations:
+      required: true
+
+  - type: textarea
+    id: extensions
+    attributes:
+      label: Installed Extensions
+      description: List relevant extensions that might be related to this issue
+      placeholder: |
+        - Python v2023.20.0
+        - Pylance v2023.11.10
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Logs/Screenshots
+      description: If applicable, add error messages, logs, or screenshots
+      placeholder: Paste error logs or drag-and-drop screenshots here...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here
+      placeholder: Any other relevant information...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to ensure this isn't a duplicate
+          required: true
+        - label: I have tested with the latest version of VS Code
+          required: true
+        - label: I have read the documentation related to this issue
+          required: true

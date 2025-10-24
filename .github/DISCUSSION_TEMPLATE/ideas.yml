@@ -1,0 +1,21 @@
+title: "[Idea]: "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share your ideas for improving VSCode+ or VS Code workflows in general.
+        
+  - type: textarea
+    attributes:
+      label: "Your Idea"
+      description: "Tell us about your idea!"
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: "Why This Would Be Useful"
+      description: "How would this help you or others?"
+    validations:
+      required: false

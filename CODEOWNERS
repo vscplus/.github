@@ -1,0 +1,27 @@
+# Code Owners for VSCode+ Organization
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# These owners will be the default owners for everything in the repo.
+# Unless a later match takes precedence, they will be requested for
+# review when someone opens a pull request.
+
+# Default owners for everything in the repo
+* @vscplus/maintainers
+
+# Organization meta files
+/README.md @vscplus/maintainers
+/profile/README.md @vscplus/maintainers
+/CODE_OF_CONDUCT.md @vscplus/maintainers
+/CONTRIBUTING.md @vscplus/maintainers
+/LICENSE @vscplus/maintainers
+
+# Issue and PR templates
+/.github/ISSUE_TEMPLATE/ @vscplus/maintainers
+/.github/PULL_REQUEST_TEMPLATE/ @vscplus/maintainers
+/.github/DISCUSSION_TEMPLATE/ @vscplus/maintainers
+
+# Workflow files
+/.github/workflows/ @vscplus/maintainers
+
+# Documentation
+/docs/ @vscplus/maintainers @vscplus/documentation-team

@@ -1,0 +1,33 @@
+title: "[Show and Tell]: "
+labels: ["show-and-tell"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share your VS Code setup, cool configurations, or useful workflows with the community!
+        
+  - type: textarea
+    attributes:
+      label: "What Are You Sharing?"
+      description: "Tell us about your setup, configuration, or workflow"
+    validations:
+      required: true
+      
+  - type: textarea
+    attributes:
+      label: "Why It's Awesome"
+      description: "What makes this special or useful?"
+    validations:
+      required: false
+      
+  - type: textarea
+    attributes:
+      label: "Setup Details"
+      description: "Share configurations, extensions, or setup instructions"
+      placeholder: |
+        - Extensions used
+        - Configuration snippets
+        - Setup steps
+        - Screenshots or recordings
+    validations:
+      required: false

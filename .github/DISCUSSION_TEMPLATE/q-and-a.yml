@@ -1,0 +1,36 @@
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask questions about VSCode+, configurations, extensions, or VS Code in general.
+        
+  - type: textarea
+    attributes:
+      label: "Your Question"
+      description: "What would you like to know?"
+    validations:
+      required: true
+      
+  - type: dropdown
+    attributes:
+      label: "Category"
+      description: "What is your question about?"
+      options:
+        - General VS Code usage
+        - Configuration help
+        - Extension recommendations
+        - Dev containers
+        - Debugging
+        - Language-specific setup
+        - Other
+    validations:
+      required: false
+      
+  - type: textarea
+    attributes:
+      label: "What I've Tried"
+      description: "Have you already tried anything to solve this?"
+    validations:
+      required: false

@@ -1,0 +1,14 @@
+title: ""
+labels: ["discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start a general discussion about VSCode+, VS Code tips, or development workflows.
+        
+  - type: textarea
+    attributes:
+      label: "Discussion Topic"
+      description: "What would you like to discuss?"
+    validations:
+      required: true

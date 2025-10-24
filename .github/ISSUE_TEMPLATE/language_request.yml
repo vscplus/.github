@@ -1,0 +1,166 @@
+name: 🌐 Language Request
+description: Request support for a new programming language
+title: "[Language]: "
+labels: ["language-request", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting a new language! Help us understand what you need.
+
+  - type: input
+    id: language
+    attributes:
+      label: Language Name
+      description: What programming language would you like to see supported?
+      placeholder: "e.g., Python, Rust, Kotlin"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How urgently do you need this language support?
+      options:
+        - Nice to have
+        - Would use regularly
+        - Need for work projects
+        - Critical for my workflow
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: How do you use or plan to use this language?
+      placeholder: |
+        - What kind of projects?
+        - Team size?
+        - Professional or personal?
+    validations:
+      required: true
+
+  - type: textarea
+    id: essential-extensions
+    attributes:
+      label: Essential Extensions
+      description: What VS Code extensions do you currently use for this language?
+      placeholder: |
+        - Extension name and ID
+        - Why it's essential
+        - Any configuration tips
+    validations:
+      required: false
+
+  - type: textarea
+    id: tools
+    attributes:
+      label: Development Tools
+      description: What tools and utilities are commonly used with this language?
+      placeholder: |
+        - Compilers/interpreters
+        - Build tools
+        - Testing frameworks
+        - Linters/formatters
+        - Debuggers
+        - Package managers
+    validations:
+      required: false
+
+  - type: textarea
+    id: settings
+    attributes:
+      label: Recommended Settings
+      description: Are there any VS Code settings that work particularly well for this language?
+      placeholder: |
+        Share your settings.json snippets or configuration tips
+    validations:
+      required: false
+
+  - type: textarea
+    id: challenges
+    attributes:
+      label: Common Challenges
+      description: What are the biggest challenges when setting up VS Code for this language?
+      placeholder: |
+        - What takes the most time to configure?
+        - What do newcomers struggle with?
+        - What's missing in VS Code?
+    validations:
+      required: false
+
+  - type: textarea
+    id: frameworks
+    attributes:
+      label: Popular Frameworks
+      description: What frameworks or libraries are commonly used with this language?
+      placeholder: |
+        - Web frameworks
+        - Testing frameworks
+        - Popular libraries
+    validations:
+      required: false
+
+  - type: dropdown
+    id: experience
+    attributes:
+      label: Your Experience Level
+      description: How experienced are you with this language?
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+        - Expert
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Can you help build this language repository?
+      options:
+        - label: I can help create configurations
+          required: false
+        - label: I can recommend extensions
+          required: false
+        - label: I can write documentation
+          required: false
+        - label: I can create examples
+          required: false
+        - label: I can test and provide feedback
+          required: false
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: Helpful Resources
+      description: Share any helpful resources, guides, or documentation
+      placeholder: |
+        - Official documentation links
+        - Setup guides
+        - Community resources
+        - Best practices articles
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Anything else we should know about this language or your needs?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to ensure this language hasn't been requested
+          required: true
+        - label: This language has an active community and ecosystem
+          required: true
