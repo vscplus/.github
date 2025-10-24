@@ -147,7 +147,7 @@ For these, please contact the appropriate source:
 
 For security issues, see our [Security Policy](SECURITY.md).
 
-For other private matters: [INSERT CONTACT EMAIL]
+For other private matters: [adrian.the.hactus@gmail.com](adrian.the.hactus@gmail.com)
 
 ---
 

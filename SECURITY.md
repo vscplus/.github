@@ -28,7 +28,7 @@ If you discover a security vulnerability within any VSCode+ repository, please r
 
 Instead:
 
-1. **Email**: Send details to [INSERT SECURITY EMAIL]
+1. **Email**: Send details to [adrian.the.hactus@gmail.com](adrian.the.hactus@gmail.com)
 2. **Subject**: Start with "SECURITY:" followed by a brief description
 3. **Include**:
    - Description of the vulnerability
