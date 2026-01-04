@@ -1,8 +1,3 @@
-# Funding options for VSCode+
-# These links will appear on the repository's sidebar under "Sponsor this project"
+# These are supported funding model platforms
 
-# github: [vscplus]  # Uncomment and add GitHub Sponsors username when available
-# patreon: vscplus  # Uncomment and add Patreon username when available
-# open_collective: vscplus  # Uncomment and add Open Collective username when available
-# ko_fi: vscplus  # Uncomment and add Ko-fi username when available
-# custom: ["https://yourwebsite.com/donate"]  # Add custom funding links when available
+github: adriandarian
